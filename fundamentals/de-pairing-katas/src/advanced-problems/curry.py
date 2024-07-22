@@ -1,0 +1,2 @@
+def curry():
+    pass
