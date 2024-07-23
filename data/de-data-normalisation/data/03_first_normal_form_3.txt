@@ -1,0 +1,33 @@
+You are now connected to database "normalisationsql" as user "simonh".
+ customer_name |             food_order             | restaurant | preference 
+---------------+------------------------------------+------------+------------
+ Jack          | Cheeseburger, Fries, Tango         | McDonald's | Takeaway
+ Henry         | McNuggets, Fries, Coke, Apple Pie  | McDonald's | Dine-in
+ Jennifer      | Meatball Sub, Crisps, Oasis        | Subway     | Dine-in
+ Tim           | Wings, Sprite                      | KFC        | Takeaway
+ Hannah        | Steak & Cheese Sub, Cookie, Fanta  | Subway     | Takeaway
+ Steph         | Zinger Burger, Fries, Oreo Krushem | KFC        | Takeaway
+(6 rows)
+
+ customer_name |       unnest       | restaurant | preference 
+---------------+--------------------+------------+------------
+ Jack          | Cheeseburger       | McDonald's | Takeaway
+ Jack          | Fries              | McDonald's | Takeaway
+ Jack          | Tango              | McDonald's | Takeaway
+ Henry         | McNuggets          | McDonald's | Dine-in
+ Henry         | Fries              | McDonald's | Dine-in
+ Henry         | Coke               | McDonald's | Dine-in
+ Henry         | Apple Pie          | McDonald's | Dine-in
+ Jennifer      | Meatball Sub       | Subway     | Dine-in
+ Jennifer      | Crisps             | Subway     | Dine-in
+ Jennifer      | Oasis              | Subway     | Dine-in
+ Tim           | Wings              | KFC        | Takeaway
+ Tim           | Sprite             | KFC        | Takeaway
+ Hannah        | Steak & Cheese Sub | Subway     | Takeaway
+ Hannah        | Cookie             | Subway     | Takeaway
+ Hannah        | Fanta              | Subway     | Takeaway
+ Steph         | Zinger Burger      | KFC        | Takeaway
+ Steph         | Fries              | KFC        | Takeaway
+ Steph         | Oreo Krushem       | KFC        | Takeaway
+(18 rows)
+

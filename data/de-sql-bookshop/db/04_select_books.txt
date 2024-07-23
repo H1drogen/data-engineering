@@ -1,0 +1,47 @@
+You are now connected to database "my_bookshop" as user "simonh".
+
+ Here are all the books that we have in stock:
+
+ book_id |                title                 | price_in_pence | quantity_in_stock | release_date | is_fiction 
+---------+--------------------------------------+----------------+-------------------+--------------+------------
+       1 | The Hitchhiker's Guide to the Galaxy |            899 |               560 | 1997-10-12   | t
+       2 | The Little Prince                    |            699 |              1000 | 1943-04-06   | t
+       3 | The Tale of Peter Rabbit             |            599 |               560 | 1902-10-01   | t
+       4 | Emma                                 |            522 |               390 | 1815-12-23   | t
+       5 | Nineteen Eighty-Four: A Novel        |            799 |               420 | 1949-06-08   | t
+       6 | The Handmaid's Tale                  |            899 |                10 | 1985-08-01   | t
+       7 | The War of the Worlds                |            250 |                17 | 1897-04-01   | t
+      10 | Pride and Prejudice                  |            699 |                 4 | 1813-01-28   | t
+(8 rows)
+
+
+ Here are all the non-fiction books:
+
+ book_id |          title          | price_in_pence | quantity_in_stock | release_date | is_fiction 
+---------+-------------------------+----------------+-------------------+--------------+------------
+       9 | A Brief History of Time |            825 |                 0 | 1988-04-01   | f
+(1 row)
+
+
+ Here are all the books released in the 1900s:
+
+ book_id |                title                 | price_in_pence | quantity_in_stock | release_date | is_fiction 
+---------+--------------------------------------+----------------+-------------------+--------------+------------
+       1 | The Hitchhiker's Guide to the Galaxy |            899 |               560 | 1997-10-12   | t
+       2 | The Little Prince                    |            699 |              1000 | 1943-04-06   | t
+       3 | The Tale of Peter Rabbit             |            599 |               560 | 1902-10-01   | t
+       5 | Nineteen Eighty-Four: A Novel        |            799 |               420 | 1949-06-08   | t
+       6 | The Handmaid's Tale                  |            899 |                10 | 1985-08-01   | t
+       8 | Captain Corelli's Mandolin           |            999 |                 0 | 1995-08-29   | t
+       9 | A Brief History of Time              |            825 |                 0 | 1988-04-01   | f
+(7 rows)
+
+
+ Here are all the books with "The" in the title:
+
+
+ Here are the books sorted in alphabetical order:
+
+
+ Here is the most expensive book:
+

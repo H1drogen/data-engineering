@@ -1,0 +1,56 @@
+You are now connected to database "normalisationsql" as user "simonh".
+DROP TABLE
+CREATE TABLE
+INSERT 0 14
+ student_no | mentor | classroom | subject  
+------------+--------+-----------+----------
+      10456 | Rose   | Zoom_12   | Maths
+      10456 | Rose   | Zoom_12   | Science
+      10456 | Rose   | Zoom_12   | English
+      10839 | Haz    | Zoom_08   | English
+      10839 | Haz    | Zoom_08   | Art
+      10839 | Haz    | Zoom_08   | P.E.
+      10931 | Rose   | Zoom_12   | Music
+      10931 | Rose   | Zoom_12   | French
+      10931 | Rose   | Zoom_12   | Business
+      11525 | Liam   | Zoom_15   | I.T.
+      11525 | Liam   | Zoom_15   | Art
+      12633 | Haz    | Zoom_08   | Science
+      12633 | Haz    | Zoom_08   | P.E.
+      12633 | Haz    | Zoom_08   | I.T.
+(14 rows)
+
+INSERT 0 14
+ student_no | mentor | classroom | subject  
+------------+--------+-----------+----------
+          1 | Rose   | Zoom_12   | Maths
+          2 | Rose   | Zoom_12   | Science
+          3 | Rose   | Zoom_12   | English
+          4 | Haz    | Zoom_08   | English
+          5 | Haz    | Zoom_08   | Art
+          6 | Haz    | Zoom_08   | P.E.
+          7 | Rose   | Zoom_12   | Music
+          8 | Rose   | Zoom_12   | French
+          9 | Rose   | Zoom_12   | Business
+         10 | Liam   | Zoom_15   | I.T.
+         11 | Liam   | Zoom_15   | Art
+         12 | Haz    | Zoom_08   | Science
+         13 | Haz    | Zoom_08   | P.E.
+         14 | Haz    | Zoom_08   | I.T.
+         15 | Rose   | Zoom_12   | Maths
+         16 | Rose   | Zoom_12   | Science
+         17 | Rose   | Zoom_12   | English
+         18 | Haz    | Zoom_08   | English
+         19 | Haz    | Zoom_08   | Art
+         20 | Haz    | Zoom_08   | P.E.
+         21 | Rose   | Zoom_12   | Music
+         22 | Rose   | Zoom_12   | French
+         23 | Rose   | Zoom_12   | Business
+         24 | Liam   | Zoom_15   | I.T.
+         25 | Liam   | Zoom_15   | Art
+         26 | Haz    | Zoom_08   | Science
+         27 | Haz    | Zoom_08   | P.E.
+         28 | Haz    | Zoom_08   | I.T.
+(28 rows)
+
+DROP TABLE
