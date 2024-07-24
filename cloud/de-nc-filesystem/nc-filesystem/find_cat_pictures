@@ -1,0 +1,5 @@
+#!/bin/bash
+
+look_in_dir="./"
+
+find "$look_in_dir" -name "*.jpeg" > cat-pics.txt
