@@ -1,0 +1,19 @@
+         title          | num_items 
+------------------------+-----------
+ Luxurious Fresh Car    |         3
+ Refined Steel Sausages |         3
+ Bespoke Frozen Salad   |         3
+(3 rows)
+
+        title         |            monetary_value            
+----------------------+--------------------------------------
+ Awesome Cotton Table | 71639.100000000000000000000000000000
+ Bespoke Frozen Salad | 41052.480000000000000000000000000000
+ Modern Cotton Shirt  | 39761.280000000000000000000000000000
+(3 rows)
+
+       email       | phone_number  |                spend                
+-------------------+---------------+-------------------------------------
+ halle68@yahoo.com | 8301 060 1207 | 9551.280000000000000000000000000000
+(1 row)
+
