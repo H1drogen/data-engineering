@@ -1,0 +1,23 @@
+You are now connected to database "nc_flix" as user "tudorsonycx".
+DROP TABLE
+CREATE TABLE
+INSERT 0 15
+ movie_id |               title                | age_appropriate | available_in_birmingham | rented_less_than_5_times 
+----------+------------------------------------+-----------------+-------------------------+--------------------------
+       14 | Episode I - The Phantom Menace     | no              | yes                     | no
+       16 | Episode IX - The Rise of Skywalker | no              | no                      | no
+        7 | Highlander                         | no              | no                      | no
+        9 | Catch Me If You Can                | no              | no                      | no
+       18 | Back to the Future Part II         | yes             | yes                     | no
+       22 | Toy Story                          | yes             | no                      | no
+        5 | The Care Bears Movie               | no              | no                      | no
+       10 | Taxi Driver                        | no              | no                      | no
+       21 | Pulp Fiction                       | no              | no                      | no
+       17 | Back to the Future                 | yes             | no                      | no
+       15 | Episode IV - A New Hope            | no              | yes                     | no
+       12 | Girl, Interrupted                  | no              | no                      | no
+       18 | Back to the Future Part II         | yes             | no                      | no
+       16 | Episode IX - The Rise of Skywalker | no              | yes                     | no
+       15 | Episode IV - A New Hope            | no              | no                      | no
+(15 rows)
+

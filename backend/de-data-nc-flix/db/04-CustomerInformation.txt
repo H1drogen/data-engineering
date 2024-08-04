@@ -1,0 +1,16 @@
+You are now connected to database "nc_flix" as user "tudorsonycx".
+ customer_id | customer_name | date_of_birth |  location  | loyalty_points | loyalty_membership_status 
+-------------+---------------+---------------+------------+----------------+---------------------------
+          11 | Haz           | 1992-07-02    | Bolton     |                | gold status
+          10 | Paul C        | 1991-03-28    | Bolton     |            198 | gold status
+           8 | Liam          | 1993-10-03    | Leeds      |                | gold status
+           1 | David         | 1992-12-30    | Leeds      |            202 | gold status
+           7 | Vel           | 1989-05-01    | Leeds      |             14 | silver status
+           9 | Jim           | 1989-05-01    | Leeds      |             14 | silver status
+           3 | Verity        | 1997-01-07    | Leicester  |                | gold status
+           2 | Joe           | 1989-06-21    | Liverpool  |             13 | silver status
+           5 | Alex          | 2001-06-24    | Manchester |           1045 | gold status
+           6 | Danika        | 1994-01-19    | Manchester |             99 | gold status
+           4 | Cat           | 1985-11-02    | Manchester |             29 | silver status
+(11 rows)
+

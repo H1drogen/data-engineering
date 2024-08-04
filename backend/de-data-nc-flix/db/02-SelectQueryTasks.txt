@@ -1,0 +1,68 @@
+You are now connected to database "nc_flix" as user "tudorsonycx".
+
+Query the database to find the number of films in stock for each genre
+
+ count | genre_name 
+-------+------------
+     7 | drama
+     3 | fantasy
+    16 | action
+    10 | crime
+     4 | family
+     9 | comedy
+    18 | sci_fi
+(7 rows)
+
+Query the database to find the average rating for films in stock in Newcastle.
+
+ average_rating_for_city |   city    
+-------------------------+-----------
+                    6.60 | Newcastle
+(1 row)
+
+Query the database to retrieve all the films released in the 90s that have a rating greater than the total average.
+
+ movie_id |             title              | release_date | rating | cost | classification 
+----------+--------------------------------+--------------+--------+------+----------------
+       14 | Episode I - The Phantom Menace | 1999-05-19   |      7 | 1.43 | 
+       22 | Toy Story                      | 1995-11-19   |     10 | 1.43 | U
+       23 | Groundhog Day                  | 1993-02-12   |      7 | 1.43 | U
+       25 | Independance Day               | 1996-07-03   |      7 | 0.95 | 15
+(4 rows)
+
+Query the database to find the total number of copies that are in stock for the top-rated film from a pool of the five most recently released films.
+
+ copies_top_rated_last_five 
+----------------------------
+                          3
+(1 row)
+
+Query the database to find a list of all the locations in which customers live that don't contain a store.
+
+ location_no_store 
+-------------------
+ Bolton
+ Leicester
+ Liverpool
+(3 rows)
+
+Query the database to find a list of all the locations we have influence over (locations of stores and/or customers). There should be no repeated data.
+
+ customer_id | customer_name | date_of_birth |  location  | loyalty_points 
+-------------+---------------+---------------+------------+----------------
+           1 | David         | 1992-12-30    | Leeds      |            202
+           4 | Cat           | 1985-11-02    | Manchester |             29
+           5 | Alex          | 2001-06-24    | Manchester |           1045
+           6 | Danika        | 1994-01-19    | Manchester |             99
+           7 | Vel           | 1989-05-01    | Leeds      |             14
+           8 | Liam          | 1993-10-03    | Leeds      |               
+           9 | Jim           | 1989-05-01    | Leeds      |             14
+(7 rows)
+
+From a list of our stores which have customers living in the same location, calculate which store has the largest catalogue of stock. What is the most abundant genre in that store?
+
+ genre_name | genre_count 
+------------+-------------
+ comedy     |           8
+(1 row)
+

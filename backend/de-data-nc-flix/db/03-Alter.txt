@@ -1,0 +1,12 @@
+You are now connected to database "nc_flix" as user "tudorsonycx".
+Query the database to find the store with the highest total number of copies of sequels. Let's assume a film is a sequel if the title contains something like 'II' or 'VI'
+
+This is likely not a good way to identify sequels going forward. Alter the movies table to track this information better and then update the previous query to make use of this new structure.
+
+ALTER TABLE
+UPDATE 6
+    city    
+------------
+ Manchester
+(1 row)
+

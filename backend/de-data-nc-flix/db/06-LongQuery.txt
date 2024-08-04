@@ -1,0 +1,7 @@
+You are now connected to database "nc_flix" as user "tudorsonycx".
+ store_id |   city    | customers | total_movies | most_loyal_customer |       title       | average_score 
+----------+-----------+-----------+--------------+---------------------+-------------------+---------------
+        3 | Newcastle |         6 |            5 | Alex                | Girl, Interrupted |           5.0
+        1 | Leeds     |         9 |           10 | Verity              | Pulp Fiction      |          10.0
+(2 rows)
+

@@ -1,0 +1,28 @@
+You are now connected to database "nc_flix" as user "tudorsonycx".
+ genre_name |               title                | rating 
+------------+------------------------------------+--------
+ comedy     | The Breakfast Club                 |      3
+ drama      | The Breakfast Club                 |      3
+ family     | The Lion King II: Simba's Pride    |      1
+ fantasy    | Highlander                         |      3
+ action     | Highlander                         |      3
+ romance    | Cleopatra                          |      6
+ action     | Episode IX - The Rise of Skywalker |      3
+ sci_fi     | Episode IX - The Rise of Skywalker |      3
+ crime      | Pulp Fiction                       |      5
+(9 rows)
+
+ genre_name |           title            | rating 
+------------+----------------------------+--------
+ comedy     | Back to the Future         |     10
+ comedy     | Back to the Future Part II |       
+ comedy     | Catch Me If You Can        |      7
+ crime      | Catch Me If You Can        |      7
+ crime      | Taxi Driver                |       
+ drama      | Catch Me If You Can        |      7
+ drama      | Taxi Driver                |       
+ family     | Toy Story                  |     10
+ sci_fi     | Back to the Future         |     10
+ sci_fi     | Back to the Future Part II |       
+(10 rows)
+

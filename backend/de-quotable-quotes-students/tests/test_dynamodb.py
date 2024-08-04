@@ -1,0 +1,1 @@
+from src.dynamodb_tasks import put_quote_in_db, get_quotes_by_author_from_db
