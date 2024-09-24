@@ -1,0 +1,25 @@
+
+name: Test & Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-tests:
+    name: run-tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v4
+      - name: python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: add dependencies
+        run: make requirements
+      - name: setup dev environment
+        run: make dev-setup
+      - name: run test
+        run: make run-checks
